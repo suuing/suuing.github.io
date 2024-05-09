@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%; /* HTML과 body 요소의 높이를 100%로 설정 */
+}
+
 #vid-c {
     width: 100%;
     height: 100%;
