@@ -23,8 +23,6 @@ body{
     border-left: 2px solid #ffffff;
 }
 
-
-
 .container {
     display: flex;
     justify-content: space-around;
