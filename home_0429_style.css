@@ -1,0 +1,36 @@
+/*{
+    border: 2px solid #f10000;
+}*/
+
+
+.button{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+.button2 {
+    top: 200px;
+    left: 50px;
+    position: absolute;
+    width: 1400px;
+    height: 400px;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 99;
+    background-color: rgba(65, 83, 83, 0);
+}
+
+img{
+    position: fixed;
+    width: 100%;
+}
+
+
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}

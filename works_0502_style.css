@@ -1,0 +1,245 @@
+@font-face{
+    font-family: NOTO;
+    src: url(NotoSansLight.ttf)
+}
+
+@font-face {
+    font-family: HAK;
+    src: url(Hak.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #1d1d1d;
+}
+
+.vline{
+    position: absolute;
+    height: 45px;
+    border-left: 2px solid #ffffff;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 2px #ffffff
+}
+
+.container h1, .container h2, .container h3 {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.container>p{
+    width: 33.3%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-right: solid 2px #ffffff;
+}s
+
+/* 또는 다른 원하는 색상으로 변경 */
+.container p:nth-of-type(3) a {
+    color: rgb(112, 112, 112);
+}
+
+a{
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.home:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255)
+}
+
+.home:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255)
+}
+
+.about:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:link{
+    color: rgb(112,112,112);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(112, 112, 112)
+}
+
+.works:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#workcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2{
+    position: relative;
+    width: 33.3vw;
+    height: 47.09vw;
+    top: 0;
+    left: 0;
+}
+
+.container2:hover .chwe {
+    display: block; /* 호버시 텍스트 표시 */
+    opacity: 0.3;
+}
+
+.chwe{
+    background-color: #1300df; /*opacity: 0;*/
+    display: none; /* 초기에는 텍스트를 숨깁니다. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    z-index: 1000;
+}
+
+.chwe p{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+    /*width: 33.3%;*/
+}
+
+.second-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}
+
+.third-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}
+
+.fourth-image{
+    /*top: 762px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}
+
+.fifth-image{
+    /*top: 762px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}
+
+.sixth-image{
+    /*top: 762px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}

@@ -1,0 +1,390 @@
+@font-face{
+    font-family: NOTO;
+    src: url(NotoSansLight.ttf)
+}
+
+@font-face {
+    font-family: HAK;
+    src: url(Hak.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #1d1d1d;
+}
+
+.vline{
+    position: absolute;
+    height: 45px;
+    border-left: 2px solid #ffffff;
+}
+
+.topbox{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 50px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-left: 50%;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 2px #ffffff
+}
+
+.container h1, .container h2, .container h3 {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.container>p{
+    width: 33.3%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-right: solid 2px #ffffff;
+}
+
+a {
+    font-size: 22px;
+    color: rgb(248, 255, 251) ;
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.topbox2 {
+    display: flex; /* Flexbox 컨테이너로 설정 */
+    flex-direction: column; /* 세로 방향으로 아이템 배치 */
+    position:fixed; /* 절대 위치 지정 */
+    z-index: 1; /* 다른 요소 위에 배치 */
+    width: 3px; /* 전체 너비 */
+    left: 500px; /* 위에서 200px 위치 */
+    color: aliceblue;
+}
+
+.container2{
+    top: 700px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 99;
+    font-family: NOTO;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.home:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255)
+}
+
+.home:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:link{
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(112, 112, 112)
+}
+
+.about:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:#ffffff
+}
+
+.works:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.first-image{
+    height: 78%;
+    position:relative;
+    z-index: 4;
+}
+
+h4 {
+    font-size: 36px;
+    text-align: left;
+    margin: 120px;
+    margin-top: 100px;
+    z-index: 99;
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+    font-family: HAk;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.hline {
+    left: 345px;
+    position: relative;
+    width: 69%;
+    border-top: 1px solid #ffffff;
+    z-index: 99;
+}
+
+.second-image {
+    position: absolute;
+    top: 763px;
+    left: 265px;
+    z-index: 999;
+    width: 40px;
+}
+
+.third-image{
+    position: absolute;
+    top: 873.5px;
+    left: 140px;
+    z-index: 999;
+    width: 40px;
+}
+
+h5{
+    position: absolute;
+    top: 875px;
+    font-size: 32px;
+    left: 200px;
+    z-index: 99;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.insta:link{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.insta:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:#6bcf8c
+}
+
+.insta:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between; /* 요소들을 동일한 간격으로 나란히 배치 */
+    align-items: flex-start; /* 요소들을 위쪽으로 정렬 */
+    top: 1000px; /* 상대적인 위치 조정 */
+    color: #ffffff;
+    font-size: 17px;
+    margin-right: 100px;
+}
+
+.container4, .container5, .container6 {
+    flex: 1; /* 자동으로 남은 공간을 나눠가져 가도록 설정 */
+    text-align: left; /* 텍스트를 가운데 정렬 */
+    line-height: 1.5; /* 텍스트의 행간 조절 */
+}
+
+.container4 p, .container5 p, .container6 p {
+    margin-top: 0; /* 단락의 상단 여백 제거 */
+    margin-left: 200px;
+}
+
+.fourth-image{
+    position: absolute;
+    top: 1069px;
+    left: 140px;
+    z-index: 999;
+    width: 40px;
+}
+
+.fifth-image {
+    position: absolute;
+    top: 1100px;
+    left: 450px;
+    z-index: 999;
+}
+
+h6{
+    position: absolute;
+    top: 1070px;
+    font-size: 32px;
+    left: 200px;
+    z-index: 99;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container7{
+    margin-top: 135px;
+    margin-left: 200px;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 1.5;;
+}
+
+.sixth-image {
+    position: absolute;
+    top: 1150px;
+    left: 1330px;
+    z-index: 999;
+    width: 90px;
+}
+
+.hline2 {
+    align-items: center;
+    position: relative;
+    width: 75%;
+    border-top: 1px solid #ffffff;
+    z-index: 99;
+    margin: 0 auto; /* 수평 가운데 정렬을 위한 마진 설정 */
+}
+
+.container8{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.container9{
+    font-family: NOTO;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    margin-top: 20px;
+}
+
+h7{
+    margin-left: 403px;
+}
+
+h8{
+    margin-left: 108px;
+}
+
+h9{
+    margin-left: 110px;
+}
+
+h10{
+    margin-left: 152px;
+}
+
+.seventh-image {
+    position: absolute;
+    top: 1477px;
+    left: 98px;
+    z-index: 999;
+    width: 85px;
+}
+
+.eighth-image {
+    position: absolute;
+    top: 1535px;
+    left: 1345px;
+    z-index: 999;
+    width: 80px;
+}
+
+.ninth-image {
+    position: absolute;
+    top: 1586px;
+    left: 1422px;
+    z-index: 999;
+    width: 37px;
+}
+
+h11{
+    position: absolute;
+    top: 1645px;
+    left: 190px;
+    right: 185px;
+    font-family: NOTO;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+}
+
+.hline3 {
+    align-items: left;
+    left: 320px;
+    position: relative;
+    width: 20%;
+    border-top: 2px dashed #ffffff;
+}
+
+.hline4 {
+    align-items: right;
+    left: 900px;
+    position: relative;
+    width: 20%;
+    border-top: 2px dashed #ffffff;
+    z-index: 99;
+}
+
+.custom-link{
+    position: absolute;
+    top: 1800px;
+    left: 0;
+    right: 0; 
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    color: #B1ECFF;
+}
+
+h13{
+position: absolute;
+top: 2040px;
+}
