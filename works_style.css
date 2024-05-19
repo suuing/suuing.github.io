@@ -141,6 +141,10 @@ a{
 }
 
 .chwe p{
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 40px;
     position: absolute;
     top: 50%;
