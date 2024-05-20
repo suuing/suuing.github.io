@@ -1,3 +1,8 @@
+@font-face{
+    font-family: NOTO;
+    src: url(NotoSansLight.ttf)
+}
+
 body{
     margin: 0;
 }
@@ -5,15 +10,41 @@ body{
 .first-image{    
     filter: blur(17px); /* 블러 효과 적용 */
     position: fixed;
-    height: 55vw;
-    width: 110vw;
+    height: 61vw;
+    width: 111vw;
     left: -2%;
+    top: -30px;
 }
 
 .second-image{
     width: 30vw;
     position: fixed;
     z-index: 99;
-    margin-top: 85px;
+    margin-top: 35px;
     margin-left: 200px;
+}
+
+h1{
+    position: fixed;
+    top: 130px;
+    left: 1030px;
+    z-index: 999;
+    font-size: 22px;
+    color: rgb(248, 255, 251) ;
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p{
+    z-index: 999;
+    position: fixed; /* 텍스트 위치를 고정 */
+    font-family: NOTO;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    top: 200px;
+    left: 800px;
+    right: 100px;;
 }
