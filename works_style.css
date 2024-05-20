@@ -117,8 +117,8 @@ a{
 
 .container2{
     position: relative;
-    width: 33.3vw;
-    height: 47.09vw;
+    width: 33vw;
+    height: 46vw;
     top: 0;
     left: 0;
 }
@@ -180,7 +180,7 @@ a{
     border-left: 50%;
     margin-left: -2px;
     color: aliceblue;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .third-image{
@@ -227,7 +227,7 @@ a{
     border-left: 50%;
     margin-left: -2px;
     color: aliceblue;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .sixth-image{
