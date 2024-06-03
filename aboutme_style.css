@@ -11,6 +11,7 @@
 *{
     margin:0;
     padding: 0;
+    
 }
 
 body{
@@ -19,11 +20,39 @@ body{
 
 .container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
-    z-index: 99;
     top: 30px;
     right: 50px;
-    gap: 30px;
+    left: 50px; 
+    z-index: 999999;
+    backdrop-filter: blur(17px); /* 블러 정도를 설정할 수 있습니다. 예: 10px */
+    background: #1d1d1d50; /* 배경색과 투명도 설정 */
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 10px; /* 모서리 둥글게 */
+    /*border-style: ; */
+}
+
+.box{
+    display: flex;
+    flex-direction: row; /* 세로 정렬을 가로 정렬로 변경 */
+    gap: 15px; /* 링크들 사이에 간격 추가 */
+    padding: 10px;
+}
+
+.left {
+    flex: 1;
+}
+.right {
+    display: flex;
+}
+.right p {
+    margin: 0;
+    margin-left: 15px; /* Adjust the margin to control spacing between links */
+}
+.right p:first-child {
+    margin-left: 0; /* Remove the margin from the first element */
 }
 
 /*
