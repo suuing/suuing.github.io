@@ -112,13 +112,32 @@ a {
     text-decoration: none;
 }
 
-.first-image{    
-    filter: blur(17px); /* 블러 효과 적용 */
+.image-container {
     position: fixed;
     height: 61vw;
     width: 111vw;
     left: -2%;
     top: -30px;
+    overflow: hidden;
+}
+
+.first-image{    
+    filter: blur(17px);
+    position: fixed;
+    height: 61vw;
+    width: 111vw;
+    left: -5%;
+    top: -30px;
+}
+
+.image-overlay {
+    background-color: rgba(123, 123, 123, 0.453); /* 오버레이 색상과 투명도 설정 */
+    mix-blend-mode: multiply; /* 혼합 모드 설정 */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .second-image{
@@ -131,8 +150,8 @@ a {
 
 h1{
     position: fixed;
-    top: 290px;
-    left: 977px;
+    top: 255px;
+    left: 931px;
     z-index: 999;
     font-size: 23px;
     text-align: center;
@@ -151,7 +170,7 @@ h2{
     font-size: 20px;
     text-align: center;
     color: #ffffff;
-    top: 350px;
+    top: 330px;
     left: 760px;
     right: 100px;;
 }

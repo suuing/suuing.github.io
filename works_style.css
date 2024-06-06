@@ -23,23 +23,24 @@ body{
     align-items: center;
     position: fixed;
     text-align: center;
-    top: 0;
     z-index: 9999;
+    top: 0;
+    height: 74px;
     width: 100%;
-    height: 75px;
     background-color: #1d1d1d;
-    padding: 10px 30px; /* 패딩을 조정하여 여백을 조정 */
-    box-sizing: border-box; /* 패딩을 포함하여 전체 크기를 계산 */
 }
 
 .box{
     display: flex;
-    flex-direction: row; /* 세로 정렬을 가로 정렬로 변경 */
+    flex-direction: row; /* 세로 정렬을 가로 정렬로 변경*/
     gap: 15px; /* 링크들 사이에 간격 추가 */
+    margin-right: 110px;
 }
 
-.container p {
-    margin: 0;
+.container p, .container a{
+    position: relative;
+    left: 25px;
+    top: 1px;
 }
 
 .container a {
@@ -65,36 +66,6 @@ body{
     text-decoration: none;
 }
 
-/*
-.vline{
-    position: absolute;
-    height: 45px;
-    border-left: 2px solid #ffffff;
-}
-
-.container {
-    display: flex;
-    justify-content: space-around;
-    border-bottom: solid 2px #ffffff
-}
-
-.container h1, .container h2, .container h3 {
-    margin-top: 10px; 
-    margin-bottom: 10px; 
-}
-
-.container>p{
-    width: 33.3%;
-    padding: 10px;
-    font-size: 18px;
-    text-align: center;
-    border-right: solid 2px #ffffff;
-}s
-
-.container p:nth-of-type(3) a {
-    color: rgb(112, 112, 112);
-} */
-
 a{
     text-decoration: none;
     font-family: bely-display, sans-serif;
@@ -102,6 +73,7 @@ a{
     font-weight: 400;
     color: #ffffff;
     font-size: 22px;
+    top: 10px;
 }
 
 .home:link{
@@ -161,7 +133,7 @@ a{
 #workcontainer{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 85px;
+    margin-top: 74px;
 }
 
 .container2{
@@ -172,19 +144,30 @@ a{
     left: 0;
 }
 
+.container2 img{
+    display: block;
+    width: 33.3vw;
+    height: 46vw;
+    object-fit: cover;
+}
+
 .container2:hover .chwe {
     display: block; /* 호버시 텍스트 표시 */
     opacity: 0.3;
 }
 
+.container2:hover img{
+    filter: blur(10px);
+}
+
 .chwe{
-    background-color: #1300df; /*opacity: 0;*/
+    background-color: #000000a2; /*opacity: 0;*/
     display: none; /* 초기에는 텍스트를 숨깁니다. */
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 33.3vw;
+    height: 46vw;
     color: #ffffff;
     z-index: 1000;
 }
@@ -194,7 +177,8 @@ a{
     font-family: bely-display, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -205,7 +189,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 33.3vw;
+    height: 46vw;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-right-style: solid;
@@ -221,7 +206,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 33.3vw;
+    height: 46vw;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-right-style: solid;
@@ -236,7 +222,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 33.3vw;
+    height: 46vw;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-right-style: solid;
@@ -252,7 +239,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 33.3vw;
+    height: 46vw;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-right-style: solid;
@@ -268,7 +256,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 33.3vw;
+    height: 46vw;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-right-style: solid;
@@ -284,7 +273,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 33.3vw;
+    height: 46vw;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-right-style: solid;
