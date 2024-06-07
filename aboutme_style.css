@@ -263,8 +263,10 @@ h5{
     justify-content: space-between; /* 요소들을 동일한 간격으로 나란히 배치 */
     align-items: flex-start; /* 요소들을 위쪽으로 정렬 */
     top: 40px; /* 상대적인 위치 조정 */
+    font-family: NOTO, sans-serif;
+    font-weight: normal;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 16.7px;
     margin-right: 100px;
     /*margin-top: 50px;*/
 }
@@ -309,9 +311,11 @@ h6{
 }
 
 .container7{
+    font-family: NOTO, sans-serif;
+    font-weight: normal;
     margin-top: 160px;
     margin-left: 200px;
-    font-size: 17px;
+    font-size: 16.7px;
     color: #ffffff;
     line-height: 1.5;;
 }
@@ -342,7 +346,7 @@ h6{
 }
 
 .container9{
-    font-family: NOTO;
+    font-family: NOTO, sans-serif;
     font-weight: normal;
     font-size: 20px;
     color: #ffffff;
