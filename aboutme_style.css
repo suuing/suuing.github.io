@@ -310,14 +310,37 @@ h6{
     font-weight: 400;
 }
 
-.container7{
+.container10 {
+    position: relative;
+    display: flex;
+    justify-content: center; /* 요소들을 가운데 정렬 */
+    align-items: flex-start; /* 요소들을 위쪽으로 정렬 */
+    top: 160px; /* 상대적인 위치 조정 */
     font-family: NOTO, sans-serif;
     font-weight: normal;
-    margin-top: 160px;
-    margin-left: 200px;
-    font-size: 16.7px;
     color: #ffffff;
-    line-height: 1.5;;
+    font-size: 16.7px;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.container7, .container11 {
+    flex: 2; /* 자동으로 남은 공간을 나눠가져 가도록 설정 */
+    text-align: left; /* 텍스트를 왼쪽 정렬 */
+    line-height: 1.5; /* 텍스트의 행간 조절 */
+}
+
+.container7 {
+    margin-right: auto; /* 왼쪽으로 정렬 */
+}
+
+.container11 {
+    margin-left: -371px; /* 오른쪽으로 정렬 */
+}
+
+.container7 p, .container11 p {
+    margin-top: 0; /* 단락의 상단 여백 제거 */
+    margin-right: 0; /* margin-right 설정 제거 */
 }
 
 .sixth-image {
@@ -340,7 +363,7 @@ h6{
 .container8{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 235px;
     margin-left: 400px;
     margin-right: 400px;
 }
