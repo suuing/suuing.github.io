@@ -6,3 +6,9 @@ a {
     color: black;
     text-decoration: none;
 }
+
+.first-image{
+    position: relative;
+    top: 166px;
+    left: 166px;
+}
