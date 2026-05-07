@@ -8,7 +8,7 @@ a {
 }
 
 .first-image{
-    position: relative;
+    position: absolute;
     top: 166px;
     left: 166px;
 }
