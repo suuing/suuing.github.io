@@ -1,9 +1,18 @@
-a {
+.text1 {
     position: absolute;
     top: 166px;
     left: 266px;
     font-size: 62px;
     color: black;
+    text-decoration: none;
+}
+
+.text2 {
+    position: absolute;
+    top: 254px;
+    left: 266px;
+    font-size: 50px;
+    color: rgb(128, 128, 128);
     text-decoration: none;
 }
 
