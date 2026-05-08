@@ -1,0 +1,286 @@
+@font-face{
+    font-family: NOTO;
+    src: url(NotoSansLight.ttf)
+}
+
+@font-face {
+    font-family: HAK;
+    src: url(Hak.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #1d1d1d;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    text-align: center;
+    z-index: 9999;
+    top: 0;
+    height: 74px;
+    width: 100%;
+    background-color: #1d1d1d;
+}
+
+.box{
+    display: flex;
+    flex-direction: row; /* 세로 정렬을 가로 정렬로 변경*/
+    gap: 15px; /* 링크들 사이에 간격 추가 */
+    margin-right: 110px;
+}
+
+.container p, .container a{
+    position: relative;
+    left: 25px;
+    top: 1px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    line-height: 25px; /* 텍스트가 컨테이너의 높이와 일치하도록 설정 */
+}
+.insta:link{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.insta:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:#6bcf8c
+}
+
+.insta:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    top: 10px;
+}
+
+.home:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255)
+}
+
+.home:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255)
+}
+
+.about:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:link{
+    color: rgb(112,112,112);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(112, 112, 112)
+}
+
+.works:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#workcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 74px;
+}
+
+.container2{
+    position: relative;
+    width: 33.3vw;
+    height: 46vw;
+    top: 0;
+    left: 0;
+}
+
+.container2 img{
+    display: block;
+    width: 33.3vw;
+    height: 46vw;
+    object-fit: cover;
+}
+
+.container2:hover .chwe {
+    display: block; /* 호버시 텍스트 표시 */
+    opacity: 0.3;
+}
+
+.container2:hover img{
+    filter: blur(10px);
+}
+
+.chwe{
+    background-color: #000000a2; /*opacity: 0;*/
+    display: none; /* 초기에는 텍스트를 숨깁니다. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3vw;
+    height: 46vw;
+    color: #ffffff;
+    z-index: 1000;
+}
+
+.chwe p{
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3vw;
+    height: 46vw;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+    /*width: 33.3%;*/
+}
+
+.second-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3vw;
+    height: 46vw;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 1000;
+}
+
+.third-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3vw;
+    height: 46vw;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}
+
+.fourth-image{
+    /*top: 762px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3vw;
+    height: 46vw;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}
+
+.fifth-image{
+    /*top: 762px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3vw;
+    height: 46vw;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 1000;
+}
+
+.sixth-image{
+    /*top: 762px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.3vw;
+    height: 46vw;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left: 50%;
+    margin-left: -2px;
+    color: aliceblue;
+    z-index: 999;
+}

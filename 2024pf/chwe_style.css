@@ -1,0 +1,157 @@
+@font-face{
+    font-family: NOTO;
+    src: url(NotoSansLight.ttf)
+}
+
+@font-face {
+    font-family: HAK;
+    src: url(Hak.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+a {
+    font-size: 22px;
+    color: rgb(248, 255, 251) ;
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 50px;
+    left: 50px;
+    z-index: 999999;
+    /*border-style: ; */
+}
+
+.box{
+    display: flex;
+    flex-direction: row; /* 세로 정렬을 가로 정렬로 변경 */
+    gap: 15px; /* 링크들 사이에 간격 추가 */
+    padding: 10px;
+}
+
+.home:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255)
+}
+
+.home:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255)
+}
+
+.about:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.works:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(112,112,112)
+}
+
+.works:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.insta:link{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.insta:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color:#6bcf8c
+}
+
+.insta:hover{
+    color: rgb(138, 203, 222);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.first-image{    
+    filter: blur(17px); /* 블러 효과 적용 */
+    position: fixed;
+    height: 61vw;
+    width: 111vw;
+    left: -2%;
+    top: -30px;
+}
+
+.second-image{
+    width: 30vw;
+    position: fixed;
+    z-index: 99;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+h1{
+    position: fixed;
+    top: 290px;
+    left: 977px;
+    z-index: 999;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(248, 255, 251) ;
+    text-decoration: none;
+    font-family: bely-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2{
+    z-index: 999;
+    position: fixed; /* 텍스트 위치를 고정 */
+    font-family: NOTO;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    top: 350px;
+    left: 760px;
+    right: 100px;;
+}
