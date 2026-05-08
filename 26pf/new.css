@@ -7,7 +7,7 @@
 
 .box1 {
     position: absolute;
-    top: 166px;
+    top: 150px;
     left: 266px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .text2 {
-    top: 88px;
+    top: 58px;
     font-size: 50px;
     color: rgb(128, 128, 128);
     text-decoration: none;
@@ -30,5 +30,5 @@
     position: absolute;
     top: 160px;
     left: 75px;
-    size: 70%;
+    width: 70px;
 }
