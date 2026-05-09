@@ -33,15 +33,15 @@
 }
 
 .second-image {
-    position: absolute;
-    top: 815px;
-    left: 2400px;
-    width: 100px;
+    /*position: absolute;*/
+    top: 515px;
+    left: 1400px;
+    width: 40px;
 }
 
 .third-image {
-    position: absolute;
+    /*position: absolute;*/
     top: 160px;
-    left: 2602px;
+    left: 1602px;
     width: 100px;
 }
