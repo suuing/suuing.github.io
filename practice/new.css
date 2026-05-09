@@ -25,9 +25,23 @@
     font-family: 'OngleipRyuryu';
 }
 
-.first-image{
+.first-image {
     position: absolute;
     top: 160px;
     left: 75px;
+    width: 100px;
+}
+
+.second-image {
+    position: absolute;
+    top: 815px;
+    left: 2400px;
+    width: 100px;
+}
+
+.third-image {
+    position: absolute;
+    top: 160px;
+    left: 2602px;
     width: 100px;
 }
