@@ -30,7 +30,7 @@
     width: 1420px;
     top: 300px;
     left: 80px;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 .text3 {
@@ -58,13 +58,13 @@
 .second-image {
     position: fixed;
     top: 560px;
-    left: 1200px;
+    left: 925px;
     width: 40px;
 }
 
 .third-image {
     position: fixed;
     top: 160px;
-    left: 1302px;
+    left: 1002px;
     width: 425px;
 }
