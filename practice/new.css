@@ -7,7 +7,7 @@
 
 .box1 {
     position: fixed;
-    top: 150px;
+    top: 130px;
     left: 266px;
 }
 
@@ -45,7 +45,7 @@
     color: rgb(100, 100, 100);
     text-decoration: none;
     font-family: 'OngleipRyuryu';
-    width: 700px;
+    width: 859px;
 }
 
 .first-image {
@@ -57,7 +57,7 @@
 
 .second-image {
     position: fixed;
-    top: 555px;
+    top: 560px;
     left: 1200px;
     width: 40px;
 }
@@ -66,5 +66,5 @@
     position: fixed;
     top: 160px;
     left: 1302px;
-    width: 100px;
+    width: 425px;
 }
